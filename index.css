@@ -121,12 +121,9 @@ main:focus { outline: none; }
 .portrait-bottom { position: absolute; bottom: 33px; left: 30px; right: 30px; display: flex; align-items: center; justify-content: space-between; }
 .portrait-bottom > span { font-size: 10px; letter-spacing: 2.1px; line-height: 1.7; color: #b7c4a7; }
 .portrait-bottom svg { color: #71805f; }
-.portrait-upload { position: absolute; top: 17px; right: 17px; display: flex; align-items: center; gap: 7px; font-size: 10px; padding: 10px 13px; color: #dbe4d1; background: #172013df; border: 1px solid #536442; transition: background 180ms; }
-.portrait-upload:hover { background: #2c3d20; }
 .portrait-caption { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-top: 28px; }
 .portrait-caption > span:first-child { font-size: 13px; }
 .portrait-caption > span:last-child { font-size: 10px; color: var(--muted); text-align: right; }
-.portrait-message { font-size: 11px; color: #c2d6a5; line-height: 1.7; margin-top: 18px; }
 .about-copy h2 { font-size: clamp(37px, 3.65vw, 53px); }
 .about-body { max-width: 460px; margin-top: 32px; }
 .about-body p { color: #a2aa96; font-size: 13px; line-height: 1.9; margin-bottom: 16px; }
@@ -352,7 +349,7 @@ button.editorial-cta:hover { background: #536841; }
 .brief-result > p { font-size: 13px; color: #a7b895; line-height: 1.8; margin-top: 15px; }
 .brief-result > textarea { display: block; width: 100%; margin-top: 24px; padding: 16px; border: 1px solid #4c5b3b; background: #10180c; color: #c5d7ad; font-family: monospace; font-size: 11px; line-height: 1.8; resize: vertical; }
 .brief-actions { display: flex; flex-wrap: wrap; gap: 13px; margin-top: 20px; }
-.brief-actions > button { font-size: 11px; padding-inline: 18px; }
+.brief-actions > .button { font-size: 11px; padding-inline: 18px; }
 .edit-brief { margin-top: 22px; }
 .brief-result .form-status { font-size: 11px; color: var(--accent); }
 
